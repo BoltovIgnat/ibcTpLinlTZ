@@ -1,0 +1,35 @@
+<?php
+
+use Bitrix\Main\Loader;
+
+Loader::registerAutoLoadClasses('ibc.tplink', [
+    'Ibc\\Tplink\\Exception\\FetchException' => 'lib/Exception/FetchException.php',
+    'Ibc\\Tplink\\Exception\\ParseException' => 'lib/Exception/ParseException.php',
+    'Ibc\\Tplink\\Dto\\SourceCardDto' => 'lib/Dto/SourceCardDto.php',
+    'Ibc\\Tplink\\Dto\\ProductVariantDto' => 'lib/Dto/ProductVariantDto.php',
+    'Ibc\\Tplink\\Dto\\SyncResultDto' => 'lib/Dto/SyncResultDto.php',
+    'Ibc\\Tplink\\Helper\\JsonResponse' => 'lib/Helper/JsonResponse.php',
+    'Ibc\\Tplink\\Helper\\AdminPath' => 'lib/Helper/AdminPath.php',
+    'Ibc\\Tplink\\Access\\RoleChecker' => 'lib/Access/RoleChecker.php',
+    'Ibc\\Tplink\\Controller\\Admin\\TplinkAdminController' => 'lib/Controller/Admin/TplinkAdminController.php',
+    'Ibc\\Tplink\\Service\\ImportServiceFactory' => 'lib/Service/ImportServiceFactory.php',
+    'Ibc\\Tplink\\Service\\ImportRunGuard' => 'lib/Service/ImportRunGuard.php',
+    'Ibc\\Tplink\\Helper\\ApiLogAccess' => 'lib/Helper/ApiLogAccess.php',
+    'Ibc\\Tplink\\Helper\\ModuleFileLogger' => 'lib/Helper/ModuleFileLogger.php',
+    'Ibc\\Tplink\\Helper\\ImportLog' => 'lib/Helper/ImportLog.php',
+    'Ibc\\Tplink\\Helper\\RemoteLogFetcher' => 'lib/Helper/RemoteLogFetcher.php',
+    'Ibc\\Tplink\\Api\\ApiKernel' => 'lib/Api/ApiKernel.php',
+    'Ibc\\Tplink\\Controller\\Api\\V1\\LogController' => 'lib/Controller/Api/V1/LogController.php',
+    'Ibc\\Tplink\\Service\\LogReaderService' => 'lib/Service/LogReaderService.php',
+    'Ibc\\Tplink\\Service\\ImportRunLogReader' => 'lib/Service/ImportRunLogReader.php',
+    'Ibc\\Tplink\\Service\\IblockInstaller' => 'lib/Service/IblockInstaller.php',
+    'Ibc\\Tplink\\Service\\SourceFetcher' => 'lib/Service/SourceFetcher.php',
+    'Ibc\\Tplink\\Service\\ListingParser' => 'lib/Service/ListingParser.php',
+    'Ibc\\Tplink\\Service\\ProductPageParser' => 'lib/Service/ProductPageParser.php',
+    'Ibc\\Tplink\\Service\\SupportPageParser' => 'lib/Service/SupportPageParser.php',
+    'Ibc\\Tplink\\Service\\FullArticleResolver' => 'lib/Service/FullArticleResolver.php',
+    'Ibc\\Tplink\\Service\\CatalogSyncService' => 'lib/Service/CatalogSyncService.php',
+    'Ibc\\Tplink\\Service\\ImportLogWriter' => 'lib/Service/ImportLogWriter.php',
+    'Ibc\\Tplink\\Service\\HashCheckService' => 'lib/Service/HashCheckService.php',
+    'Ibc\\Tplink\\Service\\ImportService' => 'lib/Service/ImportService.php',
+]);
