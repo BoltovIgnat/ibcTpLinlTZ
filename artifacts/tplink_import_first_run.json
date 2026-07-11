@@ -1,0 +1,4141 @@
+{
+  "started_at": "2026-07-11T12:45:26+03:00",
+  "finished_at": "2026-07-11T12:50:16+03:00",
+  "source_url": "https://www.tp-link.com/kz/home-networking/wifi-router/",
+  "counters": {
+    "new": 412,
+    "updated": 0,
+    "unchanged": 0,
+    "missing": 0,
+    "errors": 0,
+    "needs_review": 168
+  },
+  "items": [
+    {
+      "article": "Archer A5(EU) 6.20",
+      "full_article": "Archer A5(EU) 6.20",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(RU) 6.20",
+      "full_article": "Archer A5(RU) 6.20",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(RU) 6.2",
+      "full_article": "Archer A5(RU) 6.2",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(EU) 6.2",
+      "full_article": "Archer A5(EU) 6.2",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(EU) 6",
+      "full_article": "Archer A5(EU) 6",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(RU) 6",
+      "full_article": "Archer A5(RU) 6",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5 6",
+      "full_article": "Archer A5 6",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer A5(EU) 4",
+      "full_article": "Archer A5(EU) 4",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(RU) 4",
+      "full_article": "Archer A5(RU) 4",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A5(RU) 4.2",
+      "full_article": "Archer A5(RU) 4.2",
+      "name": "Archer A5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(EU) 6",
+      "full_article": "Archer A6(EU) 6",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 6",
+      "full_article": "Archer A6(RU) 6",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6 6",
+      "full_article": "Archer A6 6",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer A6(EU) 4",
+      "full_article": "Archer A6(EU) 4",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 4",
+      "full_article": "Archer A6(RU) 4",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6 4",
+      "full_article": "Archer A6 4",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer A6(EU) 3.2",
+      "full_article": "Archer A6(EU) 3.2",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 3.2",
+      "full_article": "Archer A6(RU) 3.2",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 3.20",
+      "full_article": "Archer A6(RU) 3.20",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(EU) 3.20",
+      "full_article": "Archer A6(EU) 3.20",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(EU) 3",
+      "full_article": "Archer A6(EU) 3",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 3",
+      "full_article": "Archer A6(RU) 3",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6 3",
+      "full_article": "Archer A6 3",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer A6(EU) 2",
+      "full_article": "Archer A6(EU) 2",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A6(RU) 2",
+      "full_article": "Archer A6(RU) 2",
+      "name": "Archer A6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A64(EU) 2",
+      "full_article": "Archer A64(EU) 2",
+      "name": "Archer A64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A64 2",
+      "full_article": "Archer A64 2",
+      "name": "Archer A64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a64/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer A64(EU) 1",
+      "full_article": "Archer A64(EU) 1",
+      "name": "Archer A64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A64(RU) 1",
+      "full_article": "Archer A64(RU) 1",
+      "name": "Archer A64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(RU) 2.2",
+      "full_article": "Archer A8(RU) 2.2",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(RU) 2.20",
+      "full_article": "Archer A8(RU) 2.20",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(EU) 2.20",
+      "full_article": "Archer A8(EU) 2.20",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(EU) 2.2",
+      "full_article": "Archer A8(EU) 2.2",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(RU) 2",
+      "full_article": "Archer A8(RU) 2",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(EU) 2",
+      "full_article": "Archer A8(EU) 2",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(EU) 2.0",
+      "full_article": "Archer A8(EU) 2.0",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(EU) 1",
+      "full_article": "Archer A8(EU) 1",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer A8(RU) 1",
+      "full_article": "Archer A8(RU) 1",
+      "name": "Archer A8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-a8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer Air|https://www.tp-link.com/kz/home-networking/wifi-router/archer-air-r5/",
+      "full_article": "Archer Air|https://www.tp-link.com/kz/home-networking/wifi-router/archer-air-r5/",
+      "name": "Archer Air",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-air-r5/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10(EU) 3",
+      "full_article": "Archer AX10(EU) 3",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10(EU) 3.0",
+      "full_article": "Archer AX10(EU) 3.0",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10 3",
+      "full_article": "Archer AX10 3",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10 V3",
+      "full_article": "Archer AX10 V3",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10 V2",
+      "full_article": "Archer AX10 V2",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10 V1",
+      "full_article": "Archer AX10 V1",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10(EU) 2",
+      "full_article": "Archer AX10(EU) 2",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10 2",
+      "full_article": "Archer AX10 2",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX10(EU) 1.2",
+      "full_article": "Archer AX10(EU) 1.2",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10(EU) 1.20",
+      "full_article": "Archer AX10(EU) 1.20",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10(EU) 1",
+      "full_article": "Archer AX10(EU) 1",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX10 1",
+      "full_article": "Archer AX10 1",
+      "name": "Archer AX10",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax10/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX11000(EU) 2",
+      "full_article": "Archer AX11000(EU) 2",
+      "name": "Archer AX11000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax11000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX11000 2",
+      "full_article": "Archer AX11000 2",
+      "name": "Archer AX11000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax11000/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX11000(EU) 1",
+      "full_article": "Archer AX11000(EU) 1",
+      "name": "Archer AX11000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax11000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX12(EU) 1",
+      "full_article": "Archer AX12(EU) 1",
+      "name": "Archer AX12",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax12/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX12(RU) 1",
+      "full_article": "Archer AX12(RU) 1",
+      "name": "Archer AX12",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax12/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX12 1",
+      "full_article": "Archer AX12 1",
+      "name": "Archer AX12",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax12/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX1500(EU) 3",
+      "full_article": "Archer AX1500(EU) 3",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1500(EU) 3.0",
+      "full_article": "Archer AX1500(EU) 3.0",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1500 3",
+      "full_article": "Archer AX1500 3",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX1500(EU) 1.20",
+      "full_article": "Archer AX1500(EU) 1.20",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1500(EU) 1",
+      "full_article": "Archer AX1500(EU) 1",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1500 1",
+      "full_article": "Archer AX1500 1",
+      "name": "Archer AX1500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1500/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX17(EU) 1",
+      "full_article": "Archer AX17(EU) 1",
+      "name": "Archer AX17",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax17/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX17(RU) 1",
+      "full_article": "Archer AX17(RU) 1",
+      "name": "Archer AX17",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax17/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX17 1",
+      "full_article": "Archer AX17 1",
+      "name": "Archer AX17",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax17/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX18(EU) 1",
+      "full_article": "Archer AX18(EU) 1",
+      "name": "Archer AX18",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax18/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX18(RU) 1",
+      "full_article": "Archer AX18(RU) 1",
+      "name": "Archer AX18",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax18/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX18 1",
+      "full_article": "Archer AX18 1",
+      "name": "Archer AX18",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax18/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX1800(EU) 2",
+      "full_article": "Archer AX1800(EU) 2",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800 2",
+      "full_article": "Archer AX1800 2",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX1800(EU) 1.20",
+      "full_article": "Archer AX1800(EU) 1.20",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800(EU) 1.2",
+      "full_article": "Archer AX1800(EU) 1.2",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800(RU) 1.20",
+      "full_article": "Archer AX1800(RU) 1.20",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800(RU) 1.2",
+      "full_article": "Archer AX1800(RU) 1.2",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800(EU) 1",
+      "full_article": "Archer AX1800(EU) 1",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX1800(RU) 1",
+      "full_article": "Archer AX1800(RU) 1",
+      "name": "Archer AX1800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax1800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX20(EU) 3",
+      "full_article": "Archer AX20(EU) 3",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX20(EU) 2",
+      "full_article": "Archer AX20(EU) 2",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX20 2",
+      "full_article": "Archer AX20 2",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX20(EU) 1.2",
+      "full_article": "Archer AX20(EU) 1.2",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX20(EU) 1",
+      "full_article": "Archer AX20(EU) 1",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX20 1",
+      "full_article": "Archer AX20 1",
+      "name": "Archer AX20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX23(EU) 2",
+      "full_article": "Archer AX23(EU) 2",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23 2",
+      "full_article": "Archer AX23 2",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX23(EU) 1.2",
+      "full_article": "Archer AX23(EU) 1.2",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(RU) 1.2",
+      "full_article": "Archer AX23(RU) 1.2",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(RU) 1.20",
+      "full_article": "Archer AX23(RU) 1.20",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(EU) 1.20",
+      "full_article": "Archer AX23(EU) 1.20",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(UN) 1.2",
+      "full_article": "Archer AX23(UN) 1.2",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(EU) 1",
+      "full_article": "Archer AX23(EU) 1",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(RU) 1",
+      "full_article": "Archer AX23(RU) 1",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23(UN) 1",
+      "full_article": "Archer AX23(UN) 1",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX23 1",
+      "full_article": "Archer AX23 1",
+      "name": "Archer AX23",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax23/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX3000(RU) 2",
+      "full_article": "Archer AX3000(RU) 2",
+      "name": "Archer AX3000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax3000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX3000(US) 1",
+      "full_article": "Archer AX3000(US) 1",
+      "name": "Archer AX3000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax3000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX3000(RU) 1",
+      "full_article": "Archer AX3000(RU) 1",
+      "name": "Archer AX3000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax3000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX3000 1",
+      "full_article": "Archer AX3000 1",
+      "name": "Archer AX3000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax3000/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX50(EU) 1",
+      "full_article": "Archer AX50(EU) 1",
+      "name": "Archer AX50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX50 1",
+      "full_article": "Archer AX50 1",
+      "name": "Archer AX50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax50/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX53(RU) 2",
+      "full_article": "Archer AX53(RU) 2",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX53(EU) 2",
+      "full_article": "Archer AX53(EU) 2",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX53 2",
+      "full_article": "Archer AX53 2",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX53(EU) 1",
+      "full_article": "Archer AX53(EU) 1",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX53(RU) 1",
+      "full_article": "Archer AX53(RU) 1",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX53 1",
+      "full_article": "Archer AX53 1",
+      "name": "Archer AX53",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax53/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX5400(JP) 1",
+      "full_article": "Archer AX5400(JP) 1",
+      "name": "Archer AX5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax5400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX5400(RU) 1",
+      "full_article": "Archer AX5400(RU) 1",
+      "name": "Archer AX5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax5400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX55(EU) 4",
+      "full_article": "Archer AX55(EU) 4",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX55 4",
+      "full_article": "Archer AX55 4",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX55(EU) 2",
+      "full_article": "Archer AX55(EU) 2",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX55(EU) 1",
+      "full_article": "Archer AX55(EU) 1",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX55(RU) 1",
+      "full_article": "Archer AX55(RU) 1",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX55 1",
+      "full_article": "Archer AX55 1",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX55 V2",
+      "full_article": "Archer AX55 V2",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55-pro/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX55 V1",
+      "full_article": "Archer AX55 V1",
+      "name": "Archer AX55",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax55-pro/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX56(EU) 1",
+      "full_article": "Archer AX56(EU) 1",
+      "name": "Archer AX56",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax56/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX58(RU) 2",
+      "full_article": "Archer AX58(RU) 2",
+      "name": "Archer AX58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax58/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX58(EU) 2",
+      "full_article": "Archer AX58(EU) 2",
+      "name": "Archer AX58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax58/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX58 2",
+      "full_article": "Archer AX58 2",
+      "name": "Archer AX58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax58/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX58(EU) 1",
+      "full_article": "Archer AX58(EU) 1",
+      "name": "Archer AX58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax58/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX58 1",
+      "full_article": "Archer AX58 1",
+      "name": "Archer AX58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax58/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX6000(EU) 2",
+      "full_article": "Archer AX6000(EU) 2",
+      "name": "Archer AX6000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax6000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX6000(UN) 2",
+      "full_article": "Archer AX6000(UN) 2",
+      "name": "Archer AX6000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax6000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX6000(EU) 1",
+      "full_article": "Archer AX6000(EU) 1",
+      "name": "Archer AX6000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax6000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX6000 1",
+      "full_article": "Archer AX6000 1",
+      "name": "Archer AX6000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax6000/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX72(EU) 1",
+      "full_article": "Archer AX72(EU) 1",
+      "name": "Archer AX72",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX72(RU) 1",
+      "full_article": "Archer AX72(RU) 1",
+      "name": "Archer AX72",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX72(UN) 1",
+      "full_article": "Archer AX72(UN) 1",
+      "name": "Archer AX72",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX72 1",
+      "full_article": "Archer AX72 1",
+      "name": "Archer AX72",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX72|https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72-pro/",
+      "full_article": "Archer AX72|https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72-pro/",
+      "name": "Archer AX72",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax72-pro/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX73(EU) 2.2",
+      "full_article": "Archer AX73(EU) 2.2",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73(EU) 2",
+      "full_article": "Archer AX73(EU) 2",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73(RU) 2",
+      "full_article": "Archer AX73(RU) 2",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73 2",
+      "full_article": "Archer AX73 2",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX73(EU) 1",
+      "full_article": "Archer AX73(EU) 1",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73(RU) 1",
+      "full_article": "Archer AX73(RU) 1",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73(UN) 1",
+      "full_article": "Archer AX73(UN) 1",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX73 1",
+      "full_article": "Archer AX73 1",
+      "name": "Archer AX73",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax73/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX80(EU) 2",
+      "full_article": "Archer AX80(EU) 2",
+      "name": "Archer AX80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX80(EU) 1",
+      "full_article": "Archer AX80(EU) 1",
+      "name": "Archer AX80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX80(RU) 1",
+      "full_article": "Archer AX80(RU) 1",
+      "name": "Archer AX80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX80 1",
+      "full_article": "Archer AX80 1",
+      "name": "Archer AX80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax80/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX90(EU) 1.20",
+      "full_article": "Archer AX90(EU) 1.20",
+      "name": "Archer AX90",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax90/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX90(EU) 1.2",
+      "full_article": "Archer AX90(EU) 1.2",
+      "name": "Archer AX90",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax90/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX90(EU) 1",
+      "full_article": "Archer AX90(EU) 1",
+      "name": "Archer AX90",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax90/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX90 1",
+      "full_article": "Archer AX90 1",
+      "name": "Archer AX90",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax90/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AX95(EU) 1",
+      "full_article": "Archer AX95(EU) 1",
+      "name": "Archer AX95",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax95/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AX95 1",
+      "full_article": "Archer AX95 1",
+      "name": "Archer AX95",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ax95/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AXE75(EU) 2",
+      "full_article": "Archer AXE75(EU) 2",
+      "name": "Archer AXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-axe75/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AXE75 2",
+      "full_article": "Archer AXE75 2",
+      "name": "Archer AXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-axe75/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer AXE75(EU) 1",
+      "full_article": "Archer AXE75(EU) 1",
+      "name": "Archer AXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-axe75/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer AXE75 1",
+      "full_article": "Archer AXE75 1",
+      "name": "Archer AXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-axe75/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE220 V3",
+      "full_article": "Archer BE220 V3",
+      "name": "Archer BE220",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE220 V1",
+      "full_article": "Archer BE220 V1",
+      "name": "Archer BE220",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE220(RU) 1",
+      "full_article": "Archer BE220(RU) 1",
+      "name": "Archer BE220",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE220(EU) 1",
+      "full_article": "Archer BE220(EU) 1",
+      "name": "Archer BE220",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE220 1",
+      "full_article": "Archer BE220 1",
+      "name": "Archer BE220",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE220W(EU) 1",
+      "full_article": "Archer BE220W(EU) 1",
+      "name": "Archer BE220W",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220w/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE220W(RU) 1",
+      "full_article": "Archer BE220W(RU) 1",
+      "name": "Archer BE220W",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be220w/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE230 V2",
+      "full_article": "Archer BE230 V2",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE230 V1",
+      "full_article": "Archer BE230 V1",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE230(EU) 2.20",
+      "full_article": "Archer BE230(EU) 2.20",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE230(EU) 2",
+      "full_article": "Archer BE230(EU) 2",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE230 2",
+      "full_article": "Archer BE230 2",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE230(RU) 1",
+      "full_article": "Archer BE230(RU) 1",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE230(EU) 1",
+      "full_article": "Archer BE230(EU) 1",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE230 1",
+      "full_article": "Archer BE230 1",
+      "name": "Archer BE230",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be230/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE400 V1",
+      "full_article": "Archer BE400 V1",
+      "name": "Archer BE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE400(EU) 1.20",
+      "full_article": "Archer BE400(EU) 1.20",
+      "name": "Archer BE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE400(EU) 1",
+      "full_article": "Archer BE400(EU) 1",
+      "name": "Archer BE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE400 1",
+      "full_article": "Archer BE400 1",
+      "name": "Archer BE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE450(EU) 1",
+      "full_article": "Archer BE450(EU) 1",
+      "name": "Archer BE450",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be450/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE450 1",
+      "full_article": "Archer BE450 1",
+      "name": "Archer BE450",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be450/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE550(EU) 2",
+      "full_article": "Archer BE550(EU) 2",
+      "name": "Archer BE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be550/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE550 2",
+      "full_article": "Archer BE550 2",
+      "name": "Archer BE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be550/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE550(EU) 1",
+      "full_article": "Archer BE550(EU) 1",
+      "name": "Archer BE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be550/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE550 1",
+      "full_article": "Archer BE550 1",
+      "name": "Archer BE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be550/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE800 V1",
+      "full_article": "Archer BE800 V1",
+      "name": "Archer BE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be800/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE800(EU) 1.20",
+      "full_article": "Archer BE800(EU) 1.20",
+      "name": "Archer BE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE800(EU) 1",
+      "full_article": "Archer BE800(EU) 1",
+      "name": "Archer BE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE800 1",
+      "full_article": "Archer BE800 1",
+      "name": "Archer BE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be800/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer BE805(EU) 1.20",
+      "full_article": "Archer BE805(EU) 1.20",
+      "name": "Archer BE805",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be805/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE805(EU) 1",
+      "full_article": "Archer BE805(EU) 1",
+      "name": "Archer BE805",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be805/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer BE805 1",
+      "full_article": "Archer BE805 1",
+      "name": "Archer BE805",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-be805/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C1200(EU) 2",
+      "full_article": "Archer C1200(EU) 2",
+      "name": "Archer C1200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c1200/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C1200(RU) 2",
+      "full_article": "Archer C1200(RU) 2",
+      "name": "Archer C1200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c1200/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C1200 2",
+      "full_article": "Archer C1200 2",
+      "name": "Archer C1200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c1200/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C1200(EU) 1",
+      "full_article": "Archer C1200(EU) 1",
+      "name": "Archer C1200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c1200/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2(EU) 5",
+      "full_article": "Archer C2(EU) 5",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2(RU) 5",
+      "full_article": "Archer C2(RU) 5",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2(US) 5",
+      "full_article": "Archer C2(US) 5",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2(EU) 3",
+      "full_article": "Archer C2(EU) 3",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2(RU) 1",
+      "full_article": "Archer C2(RU) 1",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2 1",
+      "full_article": "Archer C2 1",
+      "name": "Archer C2",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20(RU) 6.20",
+      "full_article": "Archer C20(RU) 6.20",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(EU) 6.20",
+      "full_article": "Archer C20(EU) 6.20",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(RU) 6.2",
+      "full_article": "Archer C20(RU) 6.2",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(EU) 6.2",
+      "full_article": "Archer C20(EU) 6.2",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(RU) 6",
+      "full_article": "Archer C20(RU) 6",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(EU) 6",
+      "full_article": "Archer C20(EU) 6",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(EU) 5",
+      "full_article": "Archer C20(EU) 5",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(RU) 5",
+      "full_article": "Archer C20(RU) 5",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20 5",
+      "full_article": "Archer C20 5",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20(EU) 4",
+      "full_article": "Archer C20(EU) 4",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(RU) 4",
+      "full_article": "Archer C20(RU) 4",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20 4",
+      "full_article": "Archer C20 4",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20 V6",
+      "full_article": "Archer C20 V6",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20 V5",
+      "full_article": "Archer C20 V5",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20 V4",
+      "full_article": "Archer C20 V4",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20 V2",
+      "full_article": "Archer C20 V2",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20 V1",
+      "full_article": "Archer C20 V1",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20(EU) 1",
+      "full_article": "Archer C20(EU) 1",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20(RU) 1",
+      "full_article": "Archer C20(RU) 1",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20 1",
+      "full_article": "Archer C20 1",
+      "name": "Archer C20",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C20i(UN) 1",
+      "full_article": "Archer C20i(UN) 1",
+      "name": "Archer C20i",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20i/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20i(EU) 1",
+      "full_article": "Archer C20i(EU) 1",
+      "name": "Archer C20i",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20i/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C20i 1",
+      "full_article": "Archer C20i 1",
+      "name": "Archer C20i",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c20i/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C2300(EU) 2",
+      "full_article": "Archer C2300(EU) 2",
+      "name": "Archer C2300",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2300/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2300(EU) 1",
+      "full_article": "Archer C2300(EU) 1",
+      "name": "Archer C2300",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2300/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C24(EU) 2",
+      "full_article": "Archer C24(EU) 2",
+      "name": "Archer C24",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c24/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C24(RU) 2",
+      "full_article": "Archer C24(RU) 2",
+      "name": "Archer C24",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c24/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C24(EU) 1",
+      "full_article": "Archer C24(EU) 1",
+      "name": "Archer C24",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c24/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C24(RU) 1",
+      "full_article": "Archer C24(RU) 1",
+      "name": "Archer C24",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c24/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C25|https://www.tp-link.com/kz/home-networking/wifi-router/archer-c25/",
+      "full_article": "Archer C25|https://www.tp-link.com/kz/home-networking/wifi-router/archer-c25/",
+      "name": "Archer C25",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c25/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C2600(UN) 1",
+      "full_article": "Archer C2600(UN) 1",
+      "name": "Archer C2600",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2600/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C2600 1",
+      "full_article": "Archer C2600 1",
+      "name": "Archer C2600",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c2600/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C3150(RU) 2",
+      "full_article": "Archer C3150(RU) 2",
+      "name": "Archer C3150",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c3150/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C3150(EU) 2",
+      "full_article": "Archer C3150(EU) 2",
+      "name": "Archer C3150",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c3150/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C3150 1",
+      "full_article": "Archer C3150 1",
+      "name": "Archer C3150",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c3150/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C3200(EU) 1",
+      "full_article": "Archer C3200(EU) 1",
+      "name": "Archer C3200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c3200/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C3200 1",
+      "full_article": "Archer C3200 1",
+      "name": "Archer C3200",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c3200/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C4000(EU) 3",
+      "full_article": "Archer C4000(EU) 3",
+      "name": "Archer C4000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c4000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C4000(EU) 2",
+      "full_article": "Archer C4000(EU) 2",
+      "name": "Archer C4000",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c4000/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5(EU) 4",
+      "full_article": "Archer C5(EU) 4",
+      "name": "Archer C5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5(EU) 2",
+      "full_article": "Archer C5(EU) 2",
+      "name": "Archer C5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5(UN) 2",
+      "full_article": "Archer C5(UN) 2",
+      "name": "Archer C5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5 2",
+      "full_article": "Archer C5 2",
+      "name": "Archer C5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C5 1",
+      "full_article": "Archer C5 1",
+      "name": "Archer C5",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C50(EU) 6.40",
+      "full_article": "Archer C50(EU) 6.40",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(EU) 6",
+      "full_article": "Archer C50(EU) 6",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 6.20",
+      "full_article": "Archer C50(RU) 6.20",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(EU) 6.20",
+      "full_article": "Archer C50(EU) 6.20",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 6.2",
+      "full_article": "Archer C50(RU) 6.2",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 6",
+      "full_article": "Archer C50(RU) 6",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50 6",
+      "full_article": "Archer C50 6",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C50(EU) 4",
+      "full_article": "Archer C50(EU) 4",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 4",
+      "full_article": "Archer C50(RU) 4",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(EU) 3",
+      "full_article": "Archer C50(EU) 3",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 3",
+      "full_article": "Archer C50(RU) 3",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50 3",
+      "full_article": "Archer C50 3",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C50(RU) 4.2",
+      "full_article": "Archer C50(RU) 4.2",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(UN) 2",
+      "full_article": "Archer C50(UN) 2",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50 2",
+      "full_article": "Archer C50 2",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C50(UN) 1",
+      "full_article": "Archer C50(UN) 1",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50(RU) 1",
+      "full_article": "Archer C50(RU) 1",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C50 1",
+      "full_article": "Archer C50 1",
+      "name": "Archer C50",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c50/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C54(EU) 1",
+      "full_article": "Archer C54(EU) 1",
+      "name": "Archer C54",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c54/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C54(RU) 1",
+      "full_article": "Archer C54(RU) 1",
+      "name": "Archer C54",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c54/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5400(UN) 2",
+      "full_article": "Archer C5400(UN) 2",
+      "name": "Archer C5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5400(EU) 2",
+      "full_article": "Archer C5400(EU) 2",
+      "name": "Archer C5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5400(EU) 2.0",
+      "full_article": "Archer C5400(EU) 2.0",
+      "name": "Archer C5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5400 V2",
+      "full_article": "Archer C5400 V2",
+      "name": "Archer C5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C5400 V1",
+      "full_article": "Archer C5400 V1",
+      "name": "Archer C5400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C5400X(EU) 1",
+      "full_article": "Archer C5400X(EU) 1",
+      "name": "Archer C5400X",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400x/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C5400X 1",
+      "full_article": "Archer C5400X 1",
+      "name": "Archer C5400X",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c5400x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C58 V2",
+      "full_article": "Archer C58 V2",
+      "name": "Archer C58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c58/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C58 V1",
+      "full_article": "Archer C58 V1",
+      "name": "Archer C58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c58/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C58(EU) 1",
+      "full_article": "Archer C58(EU) 1",
+      "name": "Archer C58",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c58/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C59(US) 3",
+      "full_article": "Archer C59(US) 3",
+      "name": "Archer C59",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c59/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C59 3",
+      "full_article": "Archer C59 3",
+      "name": "Archer C59",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c59/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C59(RU) 2",
+      "full_article": "Archer C59(RU) 2",
+      "name": "Archer C59",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c59/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C59(RU) 1",
+      "full_article": "Archer C59(RU) 1",
+      "name": "Archer C59",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c59/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C59 1",
+      "full_article": "Archer C59 1",
+      "name": "Archer C59",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c59/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C6(EU) 6",
+      "full_article": "Archer C6(EU) 6",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 6",
+      "full_article": "Archer C6(RU) 6",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6 6",
+      "full_article": "Archer C6 6",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C6(EU) 5",
+      "full_article": "Archer C6(EU) 5",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(EU) 4",
+      "full_article": "Archer C6(EU) 4",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 4",
+      "full_article": "Archer C6(RU) 4",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6 4",
+      "full_article": "Archer C6 4",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C6(EU) 3.20",
+      "full_article": "Archer C6(EU) 3.20",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(EU) 3.2",
+      "full_article": "Archer C6(EU) 3.2",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 3.2",
+      "full_article": "Archer C6(RU) 3.2",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 3.20",
+      "full_article": "Archer C6(RU) 3.20",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(EU) 3",
+      "full_article": "Archer C6(EU) 3",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 3",
+      "full_article": "Archer C6(RU) 3",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(EU) 2",
+      "full_article": "Archer C6(EU) 2",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6(RU) 2",
+      "full_article": "Archer C6(RU) 2",
+      "name": "Archer C6",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60(EU) 3",
+      "full_article": "Archer C60(EU) 3",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60(RU) 3",
+      "full_article": "Archer C60(RU) 3",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60 3",
+      "full_article": "Archer C60 3",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C60(EU) 2",
+      "full_article": "Archer C60(EU) 2",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60(RU) 2",
+      "full_article": "Archer C60(RU) 2",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60 2",
+      "full_article": "Archer C60 2",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C60(EU) 1",
+      "full_article": "Archer C60(EU) 1",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60(RU) 1",
+      "full_article": "Archer C60(RU) 1",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C60 1",
+      "full_article": "Archer C60 1",
+      "name": "Archer C60",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c60/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C64(EU) 2",
+      "full_article": "Archer C64(EU) 2",
+      "name": "Archer C64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C64(RU) 2",
+      "full_article": "Archer C64(RU) 2",
+      "name": "Archer C64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C64(EU) 1",
+      "full_article": "Archer C64(EU) 1",
+      "name": "Archer C64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C64(RU) 1",
+      "full_article": "Archer C64(RU) 1",
+      "name": "Archer C64",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c64/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6U(EU) 1",
+      "full_article": "Archer C6U(EU) 1",
+      "name": "Archer C6U",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6u/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C6U(RU) 1",
+      "full_article": "Archer C6U(RU) 1",
+      "name": "Archer C6U",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c6u/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(EU) 5",
+      "full_article": "Archer C7(EU) 5",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(RU) 5",
+      "full_article": "Archer C7(RU) 5",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(RU) 5.0",
+      "full_article": "Archer C7(RU) 5.0",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(EU) 5.0",
+      "full_article": "Archer C7(EU) 5.0",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7 5",
+      "full_article": "Archer C7 5",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7(EU) 4",
+      "full_article": "Archer C7(EU) 4",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(RU) 4",
+      "full_article": "Archer C7(RU) 4",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7 4",
+      "full_article": "Archer C7 4",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 V5",
+      "full_article": "Archer C7 V5",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 V4",
+      "full_article": "Archer C7 V4",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 V3",
+      "full_article": "Archer C7 V3",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 V2",
+      "full_article": "Archer C7 V2",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 V1",
+      "full_article": "Archer C7 V1",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7(EU) 2",
+      "full_article": "Archer C7(EU) 2",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7(RU) 2",
+      "full_article": "Archer C7(RU) 2",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C7 2",
+      "full_article": "Archer C7 2",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C7 1",
+      "full_article": "Archer C7 1",
+      "name": "Archer C7",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c7/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C8(EU) 4",
+      "full_article": "Archer C8(EU) 4",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C8 4",
+      "full_article": "Archer C8 4",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C8(EU) 3",
+      "full_article": "Archer C8(EU) 3",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C8(EU) 3.0",
+      "full_article": "Archer C8(EU) 3.0",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C8 3",
+      "full_article": "Archer C8 3",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C8(UN) 2",
+      "full_article": "Archer C8(UN) 2",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C8 2",
+      "full_article": "Archer C8 2",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C8(UN) 1",
+      "full_article": "Archer C8(UN) 1",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C8 1",
+      "full_article": "Archer C8 1",
+      "name": "Archer C8",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c8/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C80(EU) 2.2",
+      "full_article": "Archer C80(EU) 2.2",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(RU) 2.20",
+      "full_article": "Archer C80(RU) 2.20",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(RU) 2.2",
+      "full_article": "Archer C80(RU) 2.2",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(EU) 2.20",
+      "full_article": "Archer C80(EU) 2.20",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(EU) 2",
+      "full_article": "Archer C80(EU) 2",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(RU) 2",
+      "full_article": "Archer C80(RU) 2",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80 2",
+      "full_article": "Archer C80 2",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C80(EU) 1",
+      "full_article": "Archer C80(EU) 1",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C80(RU) 1",
+      "full_article": "Archer C80(RU) 1",
+      "name": "Archer C80",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c80/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C86(EU) 2",
+      "full_article": "Archer C86(EU) 2",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C86(RU) 2",
+      "full_article": "Archer C86(RU) 2",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C86 2",
+      "full_article": "Archer C86 2",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer C86(EU) 1",
+      "full_article": "Archer C86(EU) 1",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C86(RU) 1",
+      "full_article": "Archer C86(RU) 1",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer C86 1",
+      "full_article": "Archer C86 1",
+      "name": "Archer C86",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-c86/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GE400 V1",
+      "full_article": "Archer GE400 V1",
+      "name": "Archer GE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GE400(EU) 1",
+      "full_article": "Archer GE400(EU) 1",
+      "name": "Archer GE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge400/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GE400 1",
+      "full_article": "Archer GE400 1",
+      "name": "Archer GE400",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge400/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GE550(EU) 2",
+      "full_article": "Archer GE550(EU) 2",
+      "name": "Archer GE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge550/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GE550 2",
+      "full_article": "Archer GE550 2",
+      "name": "Archer GE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge550/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GE550(EU) 1",
+      "full_article": "Archer GE550(EU) 1",
+      "name": "Archer GE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge550/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GE550 1",
+      "full_article": "Archer GE550 1",
+      "name": "Archer GE550",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge550/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GE800(EU) 1",
+      "full_article": "Archer GE800(EU) 1",
+      "name": "Archer GE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge800/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GE800 1",
+      "full_article": "Archer GE800 1",
+      "name": "Archer GE800",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-ge800/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Archer GX90(EU) 1",
+      "full_article": "Archer GX90(EU) 1",
+      "name": "Archer GX90",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-gx90/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GXE75(EU) 1",
+      "full_article": "Archer GXE75(EU) 1",
+      "name": "Archer GXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-gxe75/",
+      "changed_fields": [],
+      "needs_review": false
+    },
+    {
+      "article": "Archer GXE75 1",
+      "full_article": "Archer GXE75 1",
+      "name": "Archer GXE75",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/archer-gxe75/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Buying Guide|https://www.tp-link.com/kz/home-networking/wifi-router/buying-guide/",
+      "full_article": "Buying Guide|https://www.tp-link.com/kz/home-networking/wifi-router/buying-guide/",
+      "name": "Buying Guide",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/buying-guide/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wdr3500|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3500/",
+      "full_article": "Tl Wdr3500|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3500/",
+      "name": "Tl Wdr3500",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3500/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wdr3600|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3600/",
+      "full_article": "Tl Wdr3600|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3600/",
+      "name": "Tl Wdr3600",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr3600/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wdr4300|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr4300/",
+      "full_article": "Tl Wdr4300|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr4300/",
+      "name": "Tl Wdr4300",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wdr4300/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr1502x V2",
+      "full_article": "Tl Wr1502x V2",
+      "name": "Tl Wr1502x",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr1502x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr1502x V1",
+      "full_article": "Tl Wr1502x V1",
+      "name": "Tl Wr1502x",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr1502x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr1512x V1",
+      "full_article": "Tl Wr1512x V1",
+      "name": "Tl Wr1512x",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr1512x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr3002x|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr3002x/",
+      "full_article": "Tl Wr3002x|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr3002x/",
+      "name": "Tl Wr3002x",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr3002x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr3012x V1",
+      "full_article": "Tl Wr3012x V1",
+      "name": "Tl Wr3012x",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr3012x/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr3602be V1",
+      "full_article": "Tl Wr3602be V1",
+      "name": "Tl Wr3602be",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr3602be/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V7",
+      "full_article": "Tl Wr740n V7",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V6",
+      "full_article": "Tl Wr740n V6",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V5",
+      "full_article": "Tl Wr740n V5",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V4",
+      "full_article": "Tl Wr740n V4",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V3",
+      "full_article": "Tl Wr740n V3",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V2",
+      "full_article": "Tl Wr740n V2",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr740n V1",
+      "full_article": "Tl Wr740n V1",
+      "name": "Tl Wr740n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr740n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr820n V2",
+      "full_article": "Tl Wr820n V2",
+      "name": "Tl Wr820n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr820n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr820n V1",
+      "full_article": "Tl Wr820n V1",
+      "name": "Tl Wr820n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr820n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V6",
+      "full_article": "Tl Wr840n V6",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V5",
+      "full_article": "Tl Wr840n V5",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V4",
+      "full_article": "Tl Wr840n V4",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V3",
+      "full_article": "Tl Wr840n V3",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V2",
+      "full_article": "Tl Wr840n V2",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr840n V1",
+      "full_article": "Tl Wr840n V1",
+      "name": "Tl Wr840n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr840n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V14",
+      "full_article": "Tl Wr841n V14",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V13",
+      "full_article": "Tl Wr841n V13",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V12",
+      "full_article": "Tl Wr841n V12",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V11",
+      "full_article": "Tl Wr841n V11",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V10",
+      "full_article": "Tl Wr841n V10",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V9",
+      "full_article": "Tl Wr841n V9",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V8",
+      "full_article": "Tl Wr841n V8",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V7",
+      "full_article": "Tl Wr841n V7",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V5",
+      "full_article": "Tl Wr841n V5",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr841n V1",
+      "full_article": "Tl Wr841n V1",
+      "name": "Tl Wr841n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr841n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr842n V5",
+      "full_article": "Tl Wr842n V5",
+      "name": "Tl Wr842n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr842n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr842n V4",
+      "full_article": "Tl Wr842n V4",
+      "name": "Tl Wr842n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr842n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr842n V3",
+      "full_article": "Tl Wr842n V3",
+      "name": "Tl Wr842n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr842n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr844n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr844n/",
+      "full_article": "Tl Wr844n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr844n/",
+      "name": "Tl Wr844n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr844n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr845n V4",
+      "full_article": "Tl Wr845n V4",
+      "name": "Tl Wr845n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr845n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr845n V3",
+      "full_article": "Tl Wr845n V3",
+      "name": "Tl Wr845n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr845n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr845n V1",
+      "full_article": "Tl Wr845n V1",
+      "name": "Tl Wr845n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr845n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr846n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr846n/",
+      "full_article": "Tl Wr846n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr846n/",
+      "name": "Tl Wr846n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr846n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr850n V3",
+      "full_article": "Tl Wr850n V3",
+      "name": "Tl Wr850n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr850n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr850n V1",
+      "full_article": "Tl Wr850n V1",
+      "name": "Tl Wr850n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr850n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr902ac V4",
+      "full_article": "Tl Wr902ac V4",
+      "name": "Tl Wr902ac",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr902ac/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr902ac V1",
+      "full_article": "Tl Wr902ac V1",
+      "name": "Tl Wr902ac",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr902ac/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr940n V6",
+      "full_article": "Tl Wr940n V6",
+      "name": "Tl Wr940n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr940n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr940n V5",
+      "full_article": "Tl Wr940n V5",
+      "name": "Tl Wr940n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr940n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr940n V4",
+      "full_article": "Tl Wr940n V4",
+      "name": "Tl Wr940n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr940n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr940n V3",
+      "full_article": "Tl Wr940n V3",
+      "name": "Tl Wr940n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr940n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr940n V2",
+      "full_article": "Tl Wr940n V2",
+      "name": "Tl Wr940n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr940n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr942n V2",
+      "full_article": "Tl Wr942n V2",
+      "name": "Tl Wr942n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr942n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr942n V1",
+      "full_article": "Tl Wr942n V1",
+      "name": "Tl Wr942n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr942n/",
+      "changed_fields": [],
+      "needs_review": true
+    },
+    {
+      "article": "Tl Wr945n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr945n/",
+      "full_article": "Tl Wr945n|https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr945n/",
+      "name": "Tl Wr945n",
+      "category": "Роутеры Wi-Fi",
+      "status": "new",
+      "url": "https://www.tp-link.com/kz/home-networking/wifi-router/tl-wr945n/",
+      "changed_fields": [],
+      "needs_review": true
+    }
+  ],
+  "errors": [],
+  "hash_check": {
+    "sorted_full_articles_sha256": "897f31a95d3eec46662c8d21626be9108ff994a60367335c273809ac5d3963e5",
+    "card_count": 91,
+    "element_count": 412
+  }
+}

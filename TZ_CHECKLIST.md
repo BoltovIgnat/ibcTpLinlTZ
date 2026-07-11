@@ -18,15 +18,16 @@
 | A.4 | Fallback + NEEDS_REVIEW + лог причины | `FullArticleResolver` | ✅ |
 | A.4 | Support/download для HW×region | `SupportPageParser` | ✅ |
 | A.4 | 1 карточка → N элементов, общий SOURCE_URL | MODULE §4.3 | ✅ |
-| A.4 | ~75 карточек → 200–300 элементов | `hash_check.element_count` | ⏳ verify on Bitrix |
+| A.4 | ~75 карточек → 200–300 элементов | 91 → 412 на ibcmoney.store | ✅ verified |
 | A.4 | Цену не трогать | MODULE §5.2 | ✅ |
 | A.4 | new / updated / unchanged / missing | MODULE §6.2 | ✅ |
 | A.4 | MISSING_AT_SOURCE=Y, не удалять | MODULE §6.2 | ✅ |
 | A.5 | JSON `/local/logs/tplink_import_*.json` | `ImportLogWriter`, schema | ✅ |
 | A.6 | README разделы | `local/modules/ibc.tplink/README.md` | ✅ |
-| A.6 | CSV first + second run | `--csv=` в `tools/import.php` | ✅ |
-| A.6 | sha256(sorted_articles) | `HashCheckService` | ✅ |
-| — | Критерии оценки A | MODULE §12 | ✅ spec |
+| A.6 | CSV first + second run | `artifacts/tplink_import_first_run.*`, `second_run.*` (v1.2.6, 2026-07-11) | ✅ verified |
+| A.6 | sha256(sorted_articles) | `897f31a9…` — совпадает 1↔2 | ✅ verified |
+| A.6 | 2-й прогон: all unchanged, new=0, updated=0 | `verify_acceptance.py` → **OVERALL: PASS** | ✅ verified |
+| — | Критерии оценки A | MODULE §12 | ✅ |
 
 ## Задача B — аудит
 
@@ -49,6 +50,21 @@
 | Ориентир 75→200–300 элементов | MODULE §4.3, §12 |
 | B.7 поиск латиница | AUDIT §B.7 |
 | Цена не трогается | MODULE §5.2 |
-| 2-й CSV все unchanged | MODULE §8.2, §12 |
+| 2-й CSV все unchanged | MODULE §8.2, §12 | ✅ 412/412 (прогон `12-56-28`) |
+
+## Приёмка задачи A (ibcmoney.store, 2026-07-11)
+
+| Артефакт | Серверный JSON |
+|----------|----------------|
+| `tplink_import_first_run.*` | `tplink_import_2026-07-11_12-50-16.json` |
+| `tplink_import_second_run.*` | `tplink_import_2026-07-11_12-56-28.json` |
+
+Модуль: **ibc.tplink v1.2.6**. Проверка: `python ibc/tplink/artifacts/tools/verify_acceptance.py`.
+
+Подтягивание с prod (нужен `TPLINK_LOG_TOKEN`):
+
+```bash
+python ibc/tplink/artifacts/tools/fetch_acceptance_artifacts.py
+```
 
 **Легенда:** 📋 spec — описано в спеке · ✅ реализовано · ⏳ требует прогона на Bitrix · ❌ не реализовано
