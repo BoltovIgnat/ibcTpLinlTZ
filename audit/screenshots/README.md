@@ -21,8 +21,8 @@ node capture-screenshots.mjs
 
 | Файл | Карточка |
 |------|----------|
-| `b2-01-mr550-price-zero.png` | MR550 — 0 ₽ |
-| `b2-02-mr550-wifi6-vs-ac1200.png` | MR550 — Wi‑Fi 6 vs AC1200 |
+| `b2-01-mr550-price-zero.png` | MR550 — 0 ₽ (hero/price) |
+| `b2-02-mr550-wifi6-vs-ac1200.png` | MR550 — Wi‑Fi 6 vs AC1200 (блок характеристик, отдельный клип) |
 | `b2-03-c6-ac1300-vs-ac750.png` | C6 — AC1300/AC750 |
 | `b2-04-ax55-missing-wan25-spec.png` | AX55 — нет 2,5G в IB |
 | `b2-05-ax10-speed-mismatch.png` | AX10 — 1201 vs AX1500 |
