@@ -23,7 +23,7 @@ final class ImportRunGuard
         return true;
     }
 
-    public function release(): void
+    public function releaseLock(): void
     {
         Option::set(self::MODULE_ID, self::OPTION_LOCK, '0');
     }
@@ -60,7 +60,7 @@ final class ImportRunGuard
                 return;
             }
             $released = true;
-            $this->release();
+            $this->releaseLock();
         };
         register_shutdown_function($release);
 

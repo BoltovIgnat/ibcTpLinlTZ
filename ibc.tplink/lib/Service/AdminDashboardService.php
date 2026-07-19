@@ -47,6 +47,7 @@ final class AdminDashboardService
             'last_run' => $lastRun,
             'recent_runs' => $runs,
             'cli_command' => 'php -f local/modules/ibc.tplink/tools/import.php',
+            'clear_cli_command' => 'php -f local/modules/ibc.tplink/tools/clear_catalog.php -- --yes',
             'source_url' => Option::get('ibc.tplink', 'source_list_url', ''),
             'use_sitemap' => Option::get('ibc.tplink', 'use_sitemap', 'Y'),
             'log_dir' => Option::get('ibc.tplink', 'log_dir', '/local/logs'),

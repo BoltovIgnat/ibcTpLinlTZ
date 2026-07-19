@@ -44,46 +44,90 @@ final class SupportPageParser
      */
     public function parseRegionalHardware(string $html, string $article): array
     {
-        $pairs = [];
+        $withRegion = [];
+        $withoutRegion = [];
         $articleRe = preg_quote($article, '#');
-        $patterns = [
-            '#' . $articleRe . '\(([A-Z0-9]+)\)_V(\d+(?:\.\d+)?)_#iu',
-            '#' . $articleRe . '\(([A-Z0-9]+)\)_V(\d+)#iu',
-            '#' . $articleRe . '_V(\d+)_#iu',
-        ];
+        // Allow spaces around article in firmware filenames ("Archer AX72(EU)_V1_").
+        $articleFlex = preg_replace('#\s+#', '\s*', $articleRe) ?? $articleRe;
 
-        foreach ($patterns as $pattern) {
+        // Prefer explicit Article(REGION)_VHW patterns (docs / firmware titles).
+        $regionalPatterns = [
+            '#' . $articleFlex . '\(([A-Z]{2,3})\)_V(\d+(?:\.\d+)?)(?:_|[\s<"\'])#iu',
+            '#' . $articleFlex . '\(([A-Z]{2,3})\)_V(\d+(?:\.\d+)?)#iu',
+        ];
+        foreach ($regionalPatterns as $pattern) {
             if (!preg_match_all($pattern, $html, $matches, PREG_SET_ORDER)) {
                 continue;
             }
             foreach ($matches as $m) {
-                if (count($m) === 3) {
-                    $pairs[$m[1] . '|' . $this->normalizeHw($m[2])] = [
-                        'region' => strtoupper($m[1]),
-                        'hw' => $this->normalizeHw($m[2]),
-                    ];
-                } elseif (count($m) === 2) {
-                    $pairs['|' . $this->normalizeHw($m[1])] = [
-                        'region' => null,
-                        'hw' => $this->normalizeHw($m[1]),
-                    ];
+                $region = strtoupper($m[1]);
+                $hw = $this->normalizeHw($m[2]);
+                $withRegion[$region . '|' . $hw] = ['region' => $region, 'hw' => $hw];
+            }
+        }
+
+        // Filenames without region: Article_V1_… — only keep if no regional pair for this HW.
+        // Do not treat version-list data-value alone as catalog pairs (causes region=null noise).
+        if (preg_match_all('#' . $articleFlex . '_V(\d+(?:\.\d+)?)(?:_|[\s<"\'])#iu', $html, $matches, PREG_SET_ORDER)) {
+            foreach ($matches as $m) {
+                $hw = $this->normalizeHw($m[1]);
+                $hasRegional = false;
+                foreach ($withRegion as $pair) {
+                    if ($pair['hw'] === $hw) {
+                        $hasRegional = true;
+                        break;
+                    }
+                }
+                if (!$hasRegional) {
+                    $withoutRegion['|' . $hw] = ['region' => null, 'hw' => $hw];
                 }
             }
         }
 
-        if ($pairs === [] && preg_match_all('#data-value="(V\d+)"#i', $html, $vm)) {
-            foreach ($vm[1] as $hw) {
-                $pairs[$hw] = ['region' => null, 'hw' => $this->normalizeHw($hw)];
+        $pairs = $withRegion;
+        foreach ($withoutRegion as $key => $pair) {
+            $hw = $pair['hw'];
+            $hasRegional = false;
+            foreach ($withRegion as $regional) {
+                if ($regional['hw'] === $hw) {
+                    $hasRegional = true;
+                    break;
+                }
             }
+            if (!$hasRegional && !isset($pairs[$key])) {
+                $pairs[$key] = $pair;
+            }
+        }
+
+        if ($pairs === []) {
+            return [];
         }
 
         return array_values($pairs);
     }
 
+    /**
+     * Canonical HW: V6, V6.20, V2.50.
+     * "6" → V6; "6.2" / "V6.2" → V6.20; "6.20" → V6.20.
+     */
     private function normalizeHw(string $hw): string
     {
-        if (preg_match('#V(\d+)#i', $hw, $m)) {
-            return 'V' . $m[1];
+        $hw = trim($hw);
+        if (preg_match('#^V?(\d+)(?:\.(\d+))?$#i', $hw, $m)) {
+            $major = $m[1];
+            if (!isset($m[2]) || $m[2] === '') {
+                return 'V' . $major;
+            }
+            $minor = $m[2];
+            // One-digit minor (6.2) → two digits (6.20) to match TP-Link version-list.
+            if (strlen($minor) === 1) {
+                $minor .= '0';
+            }
+
+            return 'V' . $major . '.' . $minor;
+        }
+        if (preg_match('#V(\d+(?:\.\d+)?)#i', $hw, $m)) {
+            return $this->normalizeHw($m[1]);
         }
 
         return strtoupper($hw);

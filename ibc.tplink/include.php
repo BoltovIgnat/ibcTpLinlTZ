@@ -29,6 +29,8 @@ Loader::registerAutoLoadClasses('ibc.tplink', [
     'Ibc\\Tplink\\Service\\SupportPageParser' => 'lib/Service/SupportPageParser.php',
     'Ibc\\Tplink\\Service\\FullArticleResolver' => 'lib/Service/FullArticleResolver.php',
     'Ibc\\Tplink\\Service\\CatalogSyncService' => 'lib/Service/CatalogSyncService.php',
+    'Ibc\\Tplink\\Service\\CatalogCleanupService' => 'lib/Service/CatalogCleanupService.php',
+    'Ibc\\Tplink\\Service\\AdminDashboardService' => 'lib/Service/AdminDashboardService.php',
     'Ibc\\Tplink\\Service\\ImportLogWriter' => 'lib/Service/ImportLogWriter.php',
     'Ibc\\Tplink\\Service\\HashCheckService' => 'lib/Service/HashCheckService.php',
     'Ibc\\Tplink\\Service\\ImportService' => 'lib/Service/ImportService.php',

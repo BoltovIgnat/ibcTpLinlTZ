@@ -62,18 +62,20 @@
     });
   }
 
-  function initImportForm() {
-    var form = document.querySelector('[data-import-form]');
-    var overlay = document.getElementById('tplink-import-overlay');
-    if (!form || !overlay) return;
+  function initCleanupForm() {
+    var form = document.querySelector('[data-clear-form]');
+    if (!form) return;
     form.addEventListener('submit', function (e) {
-      var dryRun = form.querySelector('[name="dry_run"]');
-      var isDry = dryRun && dryRun.checked;
-      if (!isDry && !window.confirm('Запустить полный импорт? Это может занять 10–30 минут.')) {
+      var input = form.querySelector('[name="clear_confirm"]');
+      if (input && input.value.trim() !== 'CLEAR') {
+        e.preventDefault();
+        window.alert('Введите CLEAR для подтверждения.');
+        return;
+      }
+      if (!window.confirm('Удалить все элементы каталога? Это действие необратимо.')) {
         e.preventDefault();
         return;
       }
-      overlay.hidden = false;
       var btn = form.querySelector('button[type="submit"]');
       if (btn) btn.disabled = true;
     });
@@ -83,6 +85,6 @@
     initReveal();
     initNav();
     initCopy();
-    initImportForm();
+    initCleanupForm();
   });
 })();

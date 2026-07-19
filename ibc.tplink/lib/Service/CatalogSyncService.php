@@ -3,7 +3,6 @@
 namespace Ibc\Tplink\Service;
 
 use Bitrix\Main\Loader;
-use Bitrix\Main\Type\DateTime;
 use Ibc\Tplink\Dto\ProductVariantDto;
 use Ibc\Tplink\Dto\SyncResultDto;
 
@@ -14,6 +13,18 @@ final class CatalogSyncService
 
     /** @var array<string, int> */
     private array $indexByFallback = [];
+
+    /** @var list<string> */
+    private const DIFF_SKIP = ['SYNCED_AT'];
+
+    /** @var list<string> */
+    private const LIST_FLAGS = ['NEEDS_REVIEW', 'MISSING_AT_SOURCE'];
+
+    /** @var array<int, string> */
+    private array $labelByElementId = [];
+
+    /** @var array<string, array<string, int>> */
+    private array $listEnumIds = [];
 
     public function __construct(
         private readonly int $iblockId,
@@ -31,9 +42,7 @@ final class CatalogSyncService
             ? $variant->fallbackKey
             : $variant->fullArticle;
 
-        $elementId = $variant->needsReview
-            ? ($this->indexByFallback[$variant->fallbackKey ?? ''] ?? 0)
-            : ($this->indexByFull[$variant->fullArticle] ?? 0);
+        $elementId = $this->resolveElementId($variant);
 
         $props = array_merge($variant->fields, [
             'FULL_ARTICLE' => $variant->needsReview && $variant->fallbackKey
@@ -80,29 +89,22 @@ final class CatalogSyncService
         return new SyncResultDto('updated', $elementId, $changed);
     }
 
-    /** @param list<string> $seenArticles */
-    public function markMissing(array $seenArticles): array
+    /** @param list<int> $seenElementIds */
+    public function markMissing(array $seenElementIds): array
     {
+        $seen = array_fill_keys(array_map('intval', $seenElementIds), true);
         $results = [];
-        $seen = array_fill_keys($seenArticles, true);
 
-        foreach ($this->indexByFull as $full => $elementId) {
-            if (isset($seen[$full])) {
+        foreach ($this->labelByElementId as $elementId => $label) {
+            if (isset($seen[$elementId])) {
                 continue;
             }
             $this->setMissingFlag($elementId, 'Y');
-            $results[] = ['article' => $full, 'status' => 'missing', 'element_id' => $elementId];
-        }
-
-        foreach ($this->indexByFallback as $fallback => $elementId) {
-            if (isset($seen[$fallback])) {
-                continue;
-            }
-            if (isset($this->indexByFull[$fallback])) {
-                continue;
-            }
-            $this->setMissingFlag($elementId, 'Y');
-            $results[] = ['article' => $fallback, 'status' => 'missing', 'element_id' => $elementId];
+            $results[] = [
+                'article' => $label,
+                'status' => 'missing',
+                'element_id' => $elementId,
+            ];
         }
 
         return $results;
@@ -126,12 +128,14 @@ final class CatalogSyncService
             $full = trim((string)($row['PROPERTY_FULL_ARTICLE_VALUE'] ?? ''));
             if ($full !== '') {
                 $this->indexByFull[$full] = $id;
+                $this->labelByElementId[$id] = $full;
             }
-            if (($row['PROPERTY_NEEDS_REVIEW_VALUE'] ?? '') === 'Y') {
+            if ($this->isListFlagYes($row['PROPERTY_NEEDS_REVIEW_VALUE'] ?? $row['PROPERTY_NEEDS_REVIEW_ENUM_ID'] ?? '')) {
                 $fallback = trim((string)$row['NAME']) . '|' . trim((string)($row['PROPERTY_SOURCE_URL_VALUE'] ?? ''));
                 $this->indexByFallback[$fallback] = $id;
                 if ($full === '' || str_contains($full, '|')) {
                     $this->indexByFull[$fallback] = $id;
+                    $this->labelByElementId[$id] = $fallback;
                 }
             }
         }
@@ -143,8 +147,10 @@ final class CatalogSyncService
         if ($variant->needsReview && $variant->fallbackKey) {
             $this->indexByFallback[$variant->fallbackKey] = $elementId;
             $this->indexByFull[$variant->fallbackKey] = $elementId;
+            $this->labelByElementId[$elementId] = $variant->fallbackKey;
         } else {
             $this->indexByFull[$variant->fullArticle] = $elementId;
+            $this->labelByElementId[$elementId] = $variant->fullArticle;
         }
     }
 
@@ -157,7 +163,12 @@ final class CatalogSyncService
             $fields = $row->GetFields();
             $current['NAME'] = (string)$fields['NAME'];
             foreach ($row->GetProperties() as $code => $prop) {
-                $current[$code] = is_array($prop['VALUE']) ? implode(', ', $prop['VALUE']) : (string)$prop['VALUE'];
+                if (in_array($code, self::LIST_FLAGS, true)) {
+                    $current[$code] = $this->listFlagFromProperty($prop);
+                } else {
+                    $val = is_array($prop['VALUE']) ? implode(', ', $prop['VALUE']) : (string)($prop['VALUE'] ?? '');
+                    $current[$code] = $val;
+                }
             }
         }
 
@@ -166,8 +177,11 @@ final class CatalogSyncService
             $changed[] = 'NAME';
         }
         foreach ($props as $code => $value) {
-            $newVal = $value === null ? '' : (string)$value;
-            $oldVal = $current[$code] ?? '';
+            if (in_array($code, self::DIFF_SKIP, true)) {
+                continue;
+            }
+            $newVal = $this->normalizeCompareValue($code, $value);
+            $oldVal = $this->normalizeCompareValue($code, $current[$code] ?? '');
             if ($oldVal !== $newVal) {
                 $changed[] = $code;
             }
@@ -176,10 +190,77 @@ final class CatalogSyncService
         return $changed;
     }
 
+    private function resolveElementId(ProductVariantDto $variant): int
+    {
+        if ($variant->needsReview && $variant->fallbackKey) {
+            return $this->indexByFallback[$variant->fallbackKey]
+                ?? $this->indexByFull[$variant->fallbackKey]
+                ?? $this->indexByFull[$variant->fullArticle]
+                ?? 0;
+        }
+
+        return $this->indexByFull[$variant->fullArticle] ?? 0;
+    }
+
+    private function isListFlagYes(mixed $value): bool
+    {
+        return $this->normalizeListFlag($value) === 'Y';
+    }
+
+    private function normalizeListFlag(mixed $value): string
+    {
+        $raw = trim((string)$value);
+        if ($raw === '') {
+            return 'N';
+        }
+        if (in_array(strtoupper($raw), ['Y', 'YES', 'N', 'NO'], true)) {
+            return strtoupper($raw)[0] === 'Y' ? 'Y' : 'N';
+        }
+        if (ctype_digit($raw)) {
+            $enum = \CIBlockPropertyEnum::GetByID((int)$raw);
+            if (is_array($enum)) {
+                $xml = strtoupper(trim((string)($enum['XML_ID'] ?? $enum['VALUE'] ?? '')));
+
+                return $xml === 'Y' ? 'Y' : 'N';
+            }
+        }
+
+        return 'N';
+    }
+
+    /** @param array<string, mixed> $prop */
+    private function listFlagFromProperty(array $prop): string
+    {
+        foreach (['VALUE_XML_ID', 'VALUE_ENUM', 'VALUE_ENUM_ID', 'VALUE'] as $key) {
+            if (!isset($prop[$key]) || $prop[$key] === '' || $prop[$key] === null) {
+                continue;
+            }
+            return $this->normalizeListFlag($prop[$key]);
+        }
+
+        return 'N';
+    }
+
+    private function normalizeCompareValue(string $code, mixed $value): string
+    {
+        if (in_array($code, self::LIST_FLAGS, true)) {
+            return $this->normalizeListFlag($value);
+        }
+        if ($value === null) {
+            return '';
+        }
+
+        return trim((string)$value);
+    }
+
     private function setMissingFlag(int $elementId, string $flag): void
     {
+        $enumId = $this->resolveListEnumId('MISSING_AT_SOURCE', $flag);
+        if ($enumId <= 0) {
+            return;
+        }
         \CIBlockElement::SetPropertyValuesEx($elementId, $this->iblockId, [
-            'MISSING_AT_SOURCE' => $flag,
+            'MISSING_AT_SOURCE' => $enumId,
         ]);
     }
 
@@ -191,9 +272,34 @@ final class CatalogSyncService
             if ($value === null || $value === '') {
                 continue;
             }
+            if (in_array($code, self::LIST_FLAGS, true)) {
+                $enumId = $this->resolveListEnumId($code, (string)$value);
+                if ($enumId > 0) {
+                    $out[$code] = $enumId;
+                }
+                continue;
+            }
             $out[$code] = $value;
         }
 
         return $out;
+    }
+
+    private function resolveListEnumId(string $propCode, string $flag): int
+    {
+        $xml = $this->normalizeListFlag($flag) === 'Y' ? 'Y' : 'N';
+        if (isset($this->listEnumIds[$propCode][$xml])) {
+            return $this->listEnumIds[$propCode][$xml];
+        }
+
+        $prop = \CIBlockProperty::GetList([], ['IBLOCK_ID' => $this->iblockId, 'CODE' => $propCode])->Fetch();
+        if (!$prop) {
+            return 0;
+        }
+        $enum = \CIBlockPropertyEnum::GetList([], ['PROPERTY_ID' => (int)$prop['ID'], 'XML_ID' => $xml])->Fetch();
+        $id = $enum ? (int)$enum['ID'] : 0;
+        $this->listEnumIds[$propCode][$xml] = $id;
+
+        return $id;
     }
 }

@@ -6,7 +6,7 @@ use Bitrix\Main\Config\Option;
 use Ibc\Tplink\Exception\FetchException;
 use Ibc\Tplink\Helper\ImportLog;
 
-final class SourceFetcher
+class SourceFetcher
 {
     public function get(string $url): string
     {

@@ -589,6 +589,52 @@
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.7), rgba(52, 211, 153, 0.45));
 }
 
+.tplink-btn--danger {
+  background: rgba(251, 113, 133, 0.15);
+  border: 1px solid rgba(251, 113, 133, 0.35);
+  color: #fecdd3;
+}
+
+.tplink-btn--danger:hover:not(:disabled) {
+  background: rgba(251, 113, 133, 0.28);
+  border-color: rgba(251, 113, 133, 0.5);
+}
+
+.tplink-danger-zone .tplink-h2 {
+  color: #fda4af;
+}
+
+.tplink-danger-bezel {
+  border-color: rgba(251, 113, 133, 0.2);
+}
+
+.tplink-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.tplink-field-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.tplink-input {
+  width: 100%;
+  max-width: 12rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.tplink-input:focus {
+  outline: none;
+  border-color: rgba(251, 113, 133, 0.45);
+}
+
 .tplink-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;

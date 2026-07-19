@@ -35,7 +35,7 @@ final class ImportService
         $counters = ['new' => 0, 'updated' => 0, 'unchanged' => 0, 'missing' => 0, 'errors' => 0, 'needs_review' => 0];
         $items = [];
         $errors = [];
-        $seenArticles = [];
+        $seenElementIds = [];
         $fullArticles = [];
 
         foreach ($cards as $card) {
@@ -49,11 +49,8 @@ final class ImportService
             }
 
             foreach ($variants as $variant) {
-                $articleKey = $this->articleKey($variant);
-                $seenArticles[] = $articleKey;
-                if (!$variant->needsReview) {
-                    $fullArticles[] = $variant->fullArticle;
-                }
+                // Hash check must cover ALL FULL_ARTICLE including needs_review (A.6).
+                $fullArticles[] = $variant->fullArticle;
                 if ($variant->needsReview) {
                     ++$counters['needs_review'];
                 }
@@ -66,6 +63,9 @@ final class ImportService
                 try {
                     $result = $this->sync->sync($variant, date('c'));
                     ++$counters[$result->status];
+                    if ($result->elementId !== null && $result->elementId > 0) {
+                        $seenElementIds[] = $result->elementId;
+                    }
                     $items[] = $this->logItem($variant, $result->status, $result->changedFields);
                 } catch (\Throwable $e) {
                     ++$counters['errors'];
@@ -81,7 +81,7 @@ final class ImportService
         }
 
         if (!$dryRun) {
-            foreach ($this->sync->markMissing($seenArticles) as $missing) {
+            foreach ($this->sync->markMissing($seenElementIds) as $missing) {
                 ++$counters['missing'];
                 $items[] = [
                     'article' => $missing['article'],
@@ -122,15 +122,6 @@ final class ImportService
         ]);
 
         return $payload;
-    }
-
-    private function articleKey(ProductVariantDto $variant): string
-    {
-        if ($variant->needsReview && $variant->fallbackKey) {
-            return $variant->fallbackKey;
-        }
-
-        return $variant->fullArticle;
     }
 
     /** @param list<string> $changed @return array<string, mixed> */

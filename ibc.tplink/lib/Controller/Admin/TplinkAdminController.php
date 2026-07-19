@@ -5,6 +5,7 @@ namespace Ibc\Tplink\Controller\Admin;
 use Bitrix\Main\Application;
 use Ibc\Tplink\Access\RoleChecker;
 use Ibc\Tplink\Service\AdminDashboardService;
+use Ibc\Tplink\Service\CatalogCleanupService;
 use Ibc\Tplink\Service\ImportRunGuard;
 use Ibc\Tplink\Service\ImportRunLogReader;
 use Ibc\Tplink\Service\LogReaderService;
@@ -16,19 +17,25 @@ final class TplinkAdminController
         RoleChecker::requireAdmin();
         $request = Application::getInstance()->getContext()->getRequest();
 
-        $importResult = null;
-        $importError = null;
+        $cleanupResult = null;
+        $cleanupError = null;
         $guard = new ImportRunGuard();
 
-        if ($request->isPost() && check_bitrix_sessid() && $request->getPost('run_import') === 'Y') {
-            try {
-                $dryRun = $request->getPost('dry_run') === 'Y';
-                $importResult = $guard->run($dryRun);
-            } catch (\Throwable $e) {
-                $importError = $e->getMessage();
+        if ($request->isPost() && check_bitrix_sessid() && $request->getPost('clear_catalog') === 'Y') {
+            if ($guard->isLocked()) {
+                $cleanupError = 'Импорт выполняется. Дождитесь завершения перед очисткой.';
+            } elseif ($request->getPost('clear_confirm') !== 'CLEAR') {
+                $cleanupError = 'Введите CLEAR в поле подтверждения.';
+            } else {
+                try {
+                    $cleanupResult = (new CatalogCleanupService())->clearAll(false);
+                } catch (\Throwable $e) {
+                    $cleanupError = $e->getMessage();
+                }
             }
         }
 
+        // Import is CLI-only (TZ A.2) — no web run_import entry.
         $data = (new AdminDashboardService())->collect();
         $data['import_locked'] = $guard->isLocked();
         $data['import_locked_until'] = $guard->lockedUntil();

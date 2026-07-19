@@ -14,12 +14,14 @@ CLI-модуль Bitrix для тестового задания tp-link.ru (з�
 
 | URL | Страница |
 |-----|----------|
-| `/ibc/tplink/admin/` | Дашборд: статистика IB, **кнопка «Запустить импорт»**, последний прогон |
+| `/ibc/tplink/admin/` | Дашборд: статистика IB, CLI-команда импорта, последний прогон |
 | `/ibc/tplink/admin/logs.php` | Логи import/api + JSON-прогоны |
 
 Доступ: администратор Bitrix или группа `ibc_tplink_admin`.
 
 Шаблон: `ibc_tplink_admin` (Ethereal Glass UI).
+
+Импорт через веб **запрещён** (ТЗ A.2) — только CLI ниже.
 
 ## Запуск импорта
 
@@ -33,6 +35,17 @@ php -f local/modules/ibc.tplink/tools/import.php
 php -f local/modules/ibc.tplink/tools/import.php -- --dry-run
 php -f local/modules/ibc.tplink/tools/import.php -- --csv=tplink_import_first_run.csv
 ```
+
+## Очистка каталога
+
+Удаляет все элементы инфоблока `tplink_catalog_stage` и сбрасывает блокировку импорта. Логи прогонов не трогаются.
+
+```bash
+php -f local/modules/ibc.tplink/tools/clear_catalog.php -- --dry-run
+php -f local/modules/ibc.tplink/tools/clear_catalog.php -- --yes
+```
+
+В админке: блок «Опасная зона» на `/ibc/tplink/admin/` — введите `CLEAR` и подтвердите.
 
 ## Архитектура
 
@@ -100,19 +113,32 @@ curl -sS -H "X-Tplink-Log-Token: $TOKEN" \
 
 ## Hash Check
 
-После запуска в JSON-логе:
+SHA256 от отсортированного списка `FULL_ARTICLE` через `\n` (UTF-8).
+
+**1-й прогон на ibcmoney.store (2026-07-10):**
 
 ```
-hash_check.sorted_full_articles_sha256
+sha256(sorted_full_articles) = 897f31a95d3eec46662c8d21626be9108ff994a60367335c273809ac5d3963e5
 ```
 
-SHA256 от отсортированного списка `FULL_ARTICLE` через `\n`.
+91 карточек → 412 элементов. 2-й прогон (идемпотентность) — см. `ibc/tplink/artifacts/ACCEPTANCE.md`.
 
 ## Ограничения
 
 - Импорт только CLI (без веб-URL).
 - Цены не импортируются (на tp-link.com их нет).
 - Задача B (аудит tp-link.ru) — отдельный документ `ibc/tplink/spec/AUDIT_TASK.md`.
+
+## Использование ИИ
+
+Задача A (импорт каталога) выполнялась с помощью Cursor Agent:
+
+- Парсеры HTML (карточка / support / listing), нормализация HW/region и идемпотентный sync в инфоблок — итеративно по фикстурам с tp-link.com/kz и логам прогонов.
+- Разбор правок ревью (Пётр): отдельные поля Wi‑Fi standard vs speed, BreadcrumbList для CATEGORY, sha256 по всем FULL_ARTICLE включая needs_review, запрет веб-импорта.
+- Документы приёмки (`ACCEPTANCE.md`, чеклист) и админ-дашборд (логи/статистика) — генерация и сверка по схеме JSON-лога.
+- Аудит задачи B (скриншоты/отчёт) — отдельный прогон capture-скрипта; скрипты и структура отчёта правились вручную под факты с tp-link.ru.
+
+Промпты опирались на `ibc/tplink/spec/MODULE_ASSIGNMENT.md` и замечания ревью; итоговый код и критерии приёмки проверялись по реальным HTML и JSON-прогонам, а не «вслепую» из чата.
 
 ## Спека
 
